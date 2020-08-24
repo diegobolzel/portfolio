@@ -1,0 +1,9 @@
+color-primary: #009FAA;
+color-primary-light: #00C0CA;
+color-grey-lighter: #EEEEEE;
+color-grey-ligth: #696D79;
+color-grey-dark: #4C5365;
+color-grey-darker: #2C3039;
+color-secondary: #FEE97E;
+color-tertiary: ##FF664C;
+color-white: #FFFFFF;
