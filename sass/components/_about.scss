@@ -1,0 +1,84 @@
+.about {
+  &__summary {
+    display: flex;
+    flex-direction: row;
+    &__text {
+      margin-right: $gutter-vertical;
+    }
+    &__img {
+    }
+  }
+
+  &__skills {
+    padding: 8rem 0;
+
+    &__prog {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__bars {
+    }
+
+    &__other-skills {
+      margin-left: 8rem;
+    }
+
+    &__list {
+      list-style: none;
+    }
+
+    &__item {
+      font-size: 2rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+
+      &::before {
+        content: "\2022";
+        color: $color-primary;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        //margin-left: -1em;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+.progress {
+  //background-color: $color-grey-ligth;
+  background-color: $color-grey-lighter;
+  height: 3.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  padding-left: 1.5rem;
+  background-color: $color-primary;
+  color: $color-grey-lighter;
+  border-radius: 20px;
+
+  &--bar-1 {
+    width: 100%;
+  }
+  &--bar-2 {
+    width: 100%;
+  }
+  &--bar-3 {
+    width: 50%;
+  }
+  &--bar-4 {
+    width: 40%;
+  }
+  &--bar-5 {
+    width: 35%;
+  }
+  &--bar-6 {
+    width: 80%;
+  }
+  &--bar-7 {
+    width: 40%;
+  }
+}

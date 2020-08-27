@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diego Bolanos | Dev</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,400;1,700;1,800&family=Open+Sans&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">About Diego</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Portfolio</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">My Blog</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Diego Bolaños</span>
+          <span class="heading-primary--sub">Web deverloper</span>
+        </h1>
+        <h3 class="heading-tertiary fadeIn">"Dream more, sleep less."</h3>
+      </div>
+    </header>
+
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 80%; width: 100%; background-color: #eeeeee"
+      >
+        <path
+          d="M-0.90,38.77 C244.58,187.79 319.63,-53.98 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #fff"
+        ></path>
+      </svg>
+    </div>
+
+    <main>
+      <section class="about" id="about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Who is Diego?</h2>
+        </div>
+
+        <div class="about__summary row">
+          <div class="about__summary__text col-1-of-2">
+            <p class="paragraph">
+              To create. I define myself as <span>someone pasionate</span> about
+              creating and being challenged by projects and bring ideas to
+              reality. This is the reason that moves me to always be learning
+              and making things.
+            </p>
+            <p class="paragraph">
+              With a background in Telecomunications first as a Technician then
+              as an engineer, I have been inmerce in technologies since 2006. In
+              2018 I decided to teach myself how to code starting with
+              <span>Javascript</span> along width <span>Node.js</span> ,
+              <span>MongoDB</span>, <span>CSS</span> and <span>HTML</span> due
+              to the coolest designs and apps were built in this technologies.
+            </p>
+            <p class="paragraph">
+              When I am not learning or creating, I am enjoying my wife and
+              children, cooking pizza or watching movies!
+            </p>
+          </div>
+          <div class="about__summary__img col-1-of-2">
+            <img src="img/about.png" alt="About Diego" />
+          </div>
+        </div>
+
+        <div class="about__skills row">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">Skills</h2>
+          </div>
+
+          <div class="about__skills__prog">
+            <div class="about__skills__bars col-1-of-2">
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-1">HTML</div>
+              </div>
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-2">CSS</div>
+              </div>
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-3">JavaScript</div>
+              </div>
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-4">Node.js</div>
+              </div>
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-5">React.js</div>
+              </div>
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-6">CLI</div>
+              </div>
+              <div class="progress paragraph">
+                <div class="progress-bar progress-bar--bar-7">Python</div>
+              </div>
+            </div>
+            <div class="about__skills__other-skills col-1-of-2">
+              <h1 class="heading-primary u-margin-bottom-medium">
+                <span class="heading-primary--sub">Along with:</span>
+              </h1>
+              <ul class="about__skills__list">
+                <li class="about__skills__item">
+                  Webpack, Babbel, postcss, SASS
+                </li>
+                <li class="about__skills__item">Git & Github</li>
+                <li class="about__skills__item">MongoDB, SQL basics</li>
+                <li class="about__skills__item">
+                  Deploy in Heroku, Netlify and shared hosting
+                </li>
+                <li class="about__skills__item">CMS (Wordpress)</li>
+                <li class="about__skills__item">
+                  AWS Certified Solutions Architect
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="js/main.js"></script>
+</html>
