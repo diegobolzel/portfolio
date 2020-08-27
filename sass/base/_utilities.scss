@@ -12,3 +12,14 @@
 .u-margin-bottom-big {
   margin-bottom: 8rem !important;
 }
+
+.u-2-round-corners-border {
+  border: 0.5rem solid $color-primary;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  padding: 0 3rem;
+}
+
+.u-skew {
+  transform: skewX(-12deg);
+}

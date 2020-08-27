@@ -54,6 +54,15 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
+.u-2-round-corners-border {
+  border: 0.5rem solid #009faa;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  padding: 0 3rem; }
+
+.u-skew {
+  transform: skewX(-12deg); }
+
 body {
   font-weight: 400;
   line-height: 1.7;
