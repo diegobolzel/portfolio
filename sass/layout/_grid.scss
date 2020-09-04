@@ -5,3 +5,10 @@
     width: calc((100% - #{$gutter-horizontal}) / 2);
   }
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
