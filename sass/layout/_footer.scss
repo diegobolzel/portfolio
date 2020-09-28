@@ -7,9 +7,16 @@
   &__navigation {
     display: flex;
     justify-content: flex-end;
+    @include respond(tablet-land) {
+      justify-content: center;
+    }
   }
   &__copyright {
     display: inline-block;
+    @include respond(tablet-land) {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
   }
 
   &__list {

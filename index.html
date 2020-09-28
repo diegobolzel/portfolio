@@ -10,7 +10,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/Logo-db-2.png"
+      title="Favicon"
+    />
   </head>
   <body>
     <div class="navigation">
@@ -29,22 +34,26 @@
             <a href="#about" class="navigation__link">About Diego</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Portfolio</a>
+            <a href="#section-projects" class="navigation__link">Portfolio</a>
           </li>
+
           <li class="navigation__item">
-            <a href="#" class="navigation__link">My Blog</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link">Contact</a>
+            <a href="#contact" class="navigation__link">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
 
     <header class="header">
-      <div class="header__logo-box">
+      <!--
+<div class="header__logo-box">
+        
         <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+       
+       <img src="img/logo-db.png" alt="Logo" class="header__logo" />
       </div>
+      -->
+
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Diego Bolaños</span>
@@ -153,15 +162,184 @@
         </div>
       </section>
 
-      <section class="projects"></section>
-    </main>
+      <section class="section-projects" id="section-projects">
+        <div class="projects">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">Projects</h2>
+          </div>
 
-    <footer class="footer">
-      <div style="height: 150px; overflow: hidden">
+          <div class="row wrapper">
+            <div class="col-1-of-3">
+              <div class="project">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--1">&nbsp;</div>
+
+                  <div class="project__details">
+                    <span class="project__name">TheOrigin</span>
+                    <span class="project__tech">Node.js MongoDB</span>
+                  </div>
+                </div>
+
+                <div
+                  class="project__side project__side--back project__side--back--1"
+                >
+                  <div class="project__cta">
+                    <span class="project__name">TheOrigin</span>
+                    <p class="project__description u-margin-bottom-mini">
+                      TheOrigin is a fiction social network built with Node.js,
+                      Express.js, MongoDB and ets. This is a project created
+                      during the Brad Schiff course on Udemy "Git a Web
+                      Developer Job: Mastering the Modern Workflow" in wich I
+                      implemented several features like sign in, log in, search,
+                      CRUD, basic security, JWT, sessions and a bounch of
+                      development tools.
+                    </p>
+                    <a
+                      href="https://theorigin.herokuapp.com/"
+                      class="btn btn--white"
+                      >Live Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="project">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--2">&nbsp;</div>
+
+                  <div class="project__details">
+                    <span class="project__name">Natours</span>
+                    <span class="project__tech">Node.js MongoDB Mongoose</span>
+                  </div>
+                </div>
+
+                <div
+                  class="project__side project__side--back project__side--back--2"
+                >
+                  <div class="project__cta">
+                    <span class="project__name">Natours</span>
+                    <p class="project__description u-margin-bottom-mini">
+                      Deployed on Heroku, Natours is a tours booking site built
+                      with Node.js, Express.js, MongoDB with Mongoose. This is a
+                      project created during the Jonas Schmedthmann course on
+                      Udemy "Node.js, Express, MongoDB & More: The Complete
+                      Bootcamp" in wich I learned through implementing a
+                      real-world RESTful API and web app with authentication,
+                      security, payments and more.
+                    </p>
+                    <a
+                      href="https://wiguanatour.herokuapp.com/"
+                      class="btn btn--white"
+                      >Live Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="project">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--3">&nbsp;</div>
+
+                  <div class="project__details">
+                    <span class="project__name">Clear View Escapes</span>
+                    <span class="project__tech">HTML CSS Webpack postCSS</span>
+                  </div>
+                </div>
+
+                <div
+                  class="project__side project__side--back project__side--back--3"
+                >
+                  <div class="project__cta">
+                    <span class="project__name project__name--yellow"
+                      >Clear View Escapes</span
+                    >
+                    <p class="project__description">
+                      This is a static site nothing exciting at all, however, as
+                      the instructor Brad Schiff sais, It is not about the
+                      destination but the journey. BEM & PostCSS, Git, GitHub,
+                      Webpack, mobile-first performance philosophy, responsive
+                      and other topics are well covered here.
+                    </p>
+                    <a
+                      href="https://diegobolzel.github.io/travel-site-v2/"
+                      class="btn btn--white"
+                      >Live Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-1-of-3">
+              <div class="project">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--4">&nbsp;</div>
+
+                  <div class="project__details">
+                    <span class="project__name">Trillo</span>
+                    <span class="project__tech">CSS Flexbox - SVG Images</span>
+                  </div>
+                </div>
+
+                <div
+                  class="project__side project__side--back project__side--back--4"
+                >
+                  <div class="project__cta">
+                    <span class="project__name">Trillo</span>
+                    <p class="project__description">
+                      A HTML / CSS theme made to practice CSS Flexbox,
+                      responsive and SVG image manipulation.
+                    </p>
+                    <a
+                      href="https://diegobolzel.github.io/Trillo-home/"
+                      class="btn btn--white"
+                      >Live Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-3">
+              <div class="project">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--5">&nbsp;</div>
+
+                  <div class="project__details">
+                    <span class="project__name">Nexter</span>
+                    <span class="project__tech">CSS Flexbox - SVG Images</span>
+                  </div>
+                </div>
+
+                <div
+                  class="project__side project__side--back project__side--back--5"
+                >
+                  <div class="project__cta">
+                    <span class="project__name">Nexter</span>
+                    <p class="project__description">
+                      A HTML / CSS theme made to practice CSS Grid, responsive
+                      and SVG image manipulation.
+                    </p>
+                    <a
+                      href="https://diegobolzel.github.io/Nexter-home/"
+                      class="btn btn--white"
+                      >Live Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="contact" id="contact">
+      <!--  <div style="height: 150px; overflow: hidden">
         <svg
           viewBox="0 0 500 150"
           preserveAspectRatio="none"
-          style="height: 80%; width: 100%; background-color: #fff"
+          style="height: 80%; width: 100%; background-color: #eeeeee"
         >
           <path
             d="M-0.90,38.77 C244.58,187.79 319.63,-53.98 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
@@ -169,7 +347,83 @@
           ></path>
         </svg>
       </div>
+    -->
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/video.mp4" type="video/mp4" />
+          <source src="img/video.webm" type="video/webm" />
+          Your browser is not supported!
+        </video>
+      </div>
+      <div
+        class="contact__wrapper wrapper wrapper--fd-column wrapper--ai-center"
+      >
+        <div class="u-center-text u-margin-bottom-small">
+          <h2 class="heading-secondary heading-secondary--white">
+            Get in touch
+          </h2>
+        </div>
 
+        <form method="POST" data-netlify="true">
+          <div class="contact__form row">
+            <div class="contact__form__field">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                class="contact__form__input"
+                required
+              />
+            </div>
+            <div class="contact__form__field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                class="contact__form__input"
+                required
+              />
+            </div>
+            <div class="contact__form__field">
+              <textarea
+                name="message"
+                placeholder="Message"
+                id="message"
+                cols="30"
+                rows="7"
+                class="contact__form__input"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <input
+                type="submit"
+                value="Send message"
+                name="send"
+                class="btn btn--grey-dark"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <!-- <div style="height: 150px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 80%; width: 100%; background-color: #eeeeee"
+        >
+          <path
+            d="M-0.90,38.77 C244.58,187.79 319.63,-53.98 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #4c5365"
+          ></path>
+        </svg>
+      </div>
+      -->
       <div class="wrapper row u-padding-tb-medium">
         <div class="footer__copyright col-1-of-2">
           <p>Diego Bolaños | diegobolzel@gmail.com | +506 84920222</p>

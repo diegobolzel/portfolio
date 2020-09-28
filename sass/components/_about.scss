@@ -2,10 +2,18 @@
   &__summary {
     display: flex;
     flex-direction: row;
+
+    @include respond(tablet-land) {
+      flex-direction: column-reverse;
+    }
+
     &__text {
       margin-right: $gutter-vertical;
     }
     &__img {
+      @include respond(tablet-land) {
+        margin-bottom: 5rem;
+      }
     }
   }
 
@@ -15,6 +23,9 @@
     &__prog {
       display: flex;
       flex-direction: row;
+      @include respond(tablet-port) {
+        flex-direction: column;
+      }
     }
 
     &__bars {
@@ -22,6 +33,10 @@
 
     &__other-skills {
       margin-left: 8rem;
+      @include respond(tablet-port) {
+        margin-top: 5rem;
+        margin-left: 0;
+      }
     }
 
     &__list {
@@ -32,6 +47,10 @@
       font-size: 2rem;
       font-weight: 300;
       margin-bottom: 1rem;
+
+      @include respond(tablet-port) {
+        margin-bottom: 0.5rem;
+      }
 
       &::before {
         content: "\2022";

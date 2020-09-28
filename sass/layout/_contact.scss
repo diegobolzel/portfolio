@@ -1,0 +1,37 @@
+.contact {
+  background-color: rgba($color-primary, 0.7);
+  position: relative;
+
+  &__wrapper {
+  }
+
+  &__form {
+    width: 55rem;
+    @include respond(phone) {
+      width: 45rem;
+    }
+
+    &__field {
+      margin-bottom: 1rem;
+      & > textarea {
+        resize: vertical;
+        font-family: inherit;
+      }
+    }
+
+    &__input {
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 3px;
+      width: 100%;
+      display: block;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+        border-bottom: 3px solid $color-primary;
+      }
+    }
+  }
+}

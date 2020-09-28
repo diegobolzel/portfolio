@@ -6,10 +6,15 @@
 @import "base/utilities";
 @import "base/typography";
 
+@import "components/button";
 @import "components/about";
+@import "components/project";
+@import "components/bg-video";
+
 @import "layout/header";
 @import "layout/navigation";
 @import "layout/grid";
+@import "layout/contact";
 @import "layout/footer";
 
 @import "pages/home";
